@@ -1,15 +1,7 @@
 <!DOCTYPE>
 <html>
     <head>
-    <meta charset="utf-8" />
-    <title>lychee</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <link type="text/css" href="../static/js/jquery-ui-1.12.0/jquery-ui.min.css" rel="shortcut icon"/>
-    <link type="text/css" href="../static/css/normalize.css" rel="stylesheet"/>
-    <link type="text/css" href="../static/css/common.css" rel="stylesheet"/>
-    <script src="../static/js/jquery-ui-1.12.0/external/jquery/jquery.min.js"></script>
+    {{template "header.tpl"}}
     </head>
     <body>
         <div class="whole-width">
@@ -27,7 +19,7 @@
                         <button type="submit">注册</button>
                     </li>
                     <li>
-                        <a href="/">登陆</a>
+                        <a href="/login">登陆</a>
                </form>
             </div>
         </div>

@@ -3,7 +3,7 @@ package controllers
 import (
     "fmt"
     "github.com/astaxie/beego"
-    "login/models"
+    "lychee/models"
     "github.com/astaxie/beego/orm"
     _"github.com/go-sql-driver/mysql"
     "crypto/md5"
