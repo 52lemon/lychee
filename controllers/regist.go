@@ -2,7 +2,6 @@ package controllers
 
 import (
     "fmt"
-    "github.com/astaxie/beego"
     "lychee/models"
     "github.com/astaxie/beego/orm"
     _"github.com/go-sql-driver/mysql"
@@ -11,7 +10,7 @@ import (
 )
 
 type RegistController struct {
-    beego.Controller
+    BaseController
 }
 
 func (this *RegistController) Get() {

@@ -2,7 +2,7 @@
 .login-part{width:320px;margin:0 auto;border:1px solid #ccc;margin-top:220px;padding:10px;border-radius:3px;}
 .login-part li{list-style:none;height:45px;}
 .login-part h1{text-align:center;}
-.login-part li input{width:220px;height:30px;padding:3px 4px;-webkit-box-shadow: 0 0 0px 1000px white inset;}
+.login-part li input{width:220px;height:30px;padding:3px 4px;-webkit-box-shadow: 0 0 0px 1000px white inset;border-radius:3px;}
 input:-webkit-autofill {background-color: #FAFFBD; background-image: none;color: #000;}
 .form-operate{display:flex;align-items:center;justify-content:center;}
 .form-operate button{padding:10px 10px;border:none;width:220px;background-color:#33CCFF;}

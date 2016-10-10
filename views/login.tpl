@@ -10,16 +10,14 @@
                 <form action="/login" method="post">
                     <ul>
                         <li>
-                            <label>用户名:</label><input type="text" name="username">
+                            <label>用&emsp;户&emsp;名:</label><input type="text" name="username">
                         </li>
                         <li>
-                            <label>密&nbsp;&nbsp;码:</label><input type="password" name="pwd">
+                            <label>密&emsp;&emsp;&emsp;码:</label><input type="password" name="pwd">
                         </li>
                         <li class="form-operate">
+                           <a href="/regist" style="width:80px;">注册</a>
                            <button type="submit">登录</button>
-                        </li>
-                        <li>
-                           <a href="/regist">注册</a>
                         </li>
                     </ul>
                 </form>

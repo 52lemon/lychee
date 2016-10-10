@@ -2,13 +2,12 @@ package controllers
 
 import (
     //"fmt"
-    "github.com/astaxie/beego"
     _"lychee/models"
     _"github.com/astaxie/beego/session"
 )
 
 type IndexController struct {
-    beego.Controller
+    BaseController
 }
 
 func (this *IndexController) Get() {
